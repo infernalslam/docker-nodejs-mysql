@@ -6,4 +6,3 @@ COPY ./package-lock.json /work/package-lock.json
 RUN npm install
 COPY . /work
 CMD node server.js
-EXPOSE 3000
